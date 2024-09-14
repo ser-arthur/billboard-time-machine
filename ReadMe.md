@@ -20,7 +20,7 @@ To tap into the Spotify Web API, your app needs to be authenticated. Direct auth
 
 1. **Spotify Account & App**: Create a Spotify account and app on the Spotify Developer Dashboard to obtain a Client ID and Secret.
 
-2. **Set Environment Variables**: Store your Client ID and Secret as environment variables.
+2. **Set Environment Variables**: Store your `Client ID` and `Secret` as environment variables.
 
 3. **Run the Script**: Upon running the script, your web browser will open the Spotify login page. Log in and authorize the app, and Spotify will redirect you to a URL. Copy this URL and paste it into your terminal. A cache file storing your authentication token will be created, allowing the app to interact with the Spotify API without needing to re-authenticate for future requests.
 
